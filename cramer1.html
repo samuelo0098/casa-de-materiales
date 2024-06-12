@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<script src="cramer2.js"></script>
+</head>
+<body>
+	<center><h1>Método Cramer</h1></center>
+	<h1>Forma General</h1>
+	<p>a1x + b1y = c1</p>
+	<p>a2x + b2y = c2</p>
+	<input type="number" id="a1" placeholder="a1" required>x +
+	<input type="number" id="b1" placeholder="b1" required>y =
+	<input type="number" id="c1" placeholder="c1" required>
+	<br>
+	<input type="number" id="a2" placeholder="a2" required>x +
+	<input type="number" id="b2" placeholder="b2" required>y =
+	<input type="number" id="c2" placeholder="c2" required>
+	<br>
+	<button type="button" onclick="solve()">Resolver</button>
+	<h2>Resultado</h2>
+	<p>
+		x = <input type="text" id="x-result" readonly>
+	</p>
+	<p>
+		y = <input type="text" id="y-result" readonly>
+		</p>
+	</body>
+</html>
